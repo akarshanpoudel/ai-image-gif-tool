@@ -6,7 +6,6 @@ A web-based AI application that converts images into optimized GIFs with advance
 
 Built using **Python**, **Streamlit**, **OpenCV**, and **rembg**.
 
----
 
 ## 🚀 Features
 
@@ -21,13 +20,12 @@ Built using **Python**, **Streamlit**, **OpenCV**, and **rembg**.
 - ⚡ Optimized GIF size & quality
 - 🌐 Deployed online using Streamlit Cloud
 
----
 
 ## 🖥 Live Demo
 
-👉 *(Add your Streamlit Cloud URL here after deployment)*
 
----
+
+
 
 ## 🛠 Tech Stack
 
@@ -39,33 +37,6 @@ Built using **Python**, **Streamlit**, **OpenCV**, and **rembg**.
 - **ONNX Runtime** – AI inference
 - **NumPy**
 
----
-
-## 📂 Project Structure
-project/
-│
-├── app.py # Main Streamlit application
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── .gitignore # Ignored files
 
 
----
-
-## ⚙️ Local Setup
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/your-username/ai-image-gif-tool.git
-cd ai-image-gif-tool
-python -m pip install -r requirements.txt
-python -m streamlit run app.py
-http://localhost:8501
-⚠️ Notes
-
-First AI background removal run may take 30–60 seconds (model load).
-
-Instagram profile pictures do not animate GIFs (only first frame).
-
-Best use cases: stories, reels, previews, highlight covers.
 
